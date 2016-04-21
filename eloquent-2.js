@@ -4,8 +4,8 @@ for (var hash = "#"; hash <= "#######"; hash = hash += "#")
 
 for (var num = 1; num <=100; num += 1)
   {var toPrint = "";
-if (n % 3 == 0) toPrint += "Fizz";
-if (n % 5 == 0) toPrint += "Buzz";)
+if (num % 3 == 0) toPrint += "Fizz";
+if (num % 5 == 0) toPrint += "Buzz";
   console.log(toPrint || num);
   }
 
